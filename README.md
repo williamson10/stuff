@@ -1,5 +1,5 @@
 # stuff
-Random Collection of Scripts
+This is a collection of scripts that will be used in my homelab. I am currently on a mission to save user data only and automate server deployments.  
 
 # Sonarr Installer
 This will donwload all dependences, install Sonarr, and set it to start at bootup. It is essentially the instructions at  https://github.com/Sonarr/Sonarr/wiki/Installation-CentOS-7 thrown in a script. 
