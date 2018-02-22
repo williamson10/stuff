@@ -12,8 +12,10 @@ This will donwload all dependences, install Radarr, and set it to start at bootu
 * https://github.com/Radarr/Radarr/wiki/Autostart-on-Linux
 * https://www.reddit.com/r/radarr/comments/5yhi3w/centos_7_installation/
 * https://github.com/Radarr/Radarr/wiki/Installation#manually-install-radarr
+
 There is no error checking. 
+
 (If you trust me) You can run it with: 
 
-``` curl -sSL https://raw.githubusercontent.com/williamson10/stuff/master/sonarr_installer.sh | bash ```
+``` curl -sSL https://raw.githubusercontent.com/williamson10/stuff/master/radarr_installer.sh | bash ```
 
