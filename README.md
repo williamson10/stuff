@@ -4,7 +4,7 @@ Random Collection of Scripts
 # Sonarr Installer
 This will donwload all dependences, install Sonarr, and set it to start at bootup. It is essentially the instructions at  https://github.com/Sonarr/Sonarr/wiki/Installation-CentOS-7 thrown in a script. 
 
-There is no error checking. 
+There is no error checking. It was tested on an LXC container running in Proxmox using the default CentOS template (centos-7-default_20171212_amd64.tar.xz)
 
 If you trust me you can run it with: 
 
@@ -16,7 +16,7 @@ This will donwload all dependences, install Radarr, and set it to start at bootu
 * https://www.reddit.com/r/radarr/comments/5yhi3w/centos_7_installation/
 * https://github.com/Radarr/Radarr/wiki/Installation#manually-install-radarr
 
-There is no error checking. 
+There is no error checking. It was tested on an LXC container running in Proxmox using the default CentOS template (centos-7-default_20171212_amd64.tar.xz)
 
 If you trust me you can run it with: 
 
