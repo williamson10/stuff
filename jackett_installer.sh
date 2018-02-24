@@ -1,4 +1,4 @@
-um install epel-release yum-utils -y
+yum install epel-release yum-utils -y
 rpm --import "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF"
 yum-config-manager --add-repo http://download.mono-project.com/repo/centos/
 yum install wget mediainfo libzen libmediainfo curl gettext mono-core mono-devel mono-locale-extras sqlite.x86_64 -y
