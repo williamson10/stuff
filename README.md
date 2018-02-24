@@ -26,9 +26,7 @@ You can run it with:
 
 
 # Jackett Installer
-This will donwload all dependences, install Jackett, and set it to start at bootup. This is a mashup of instructions found at:
-* the minimal instructions at https://github.com/Jackett/Jackett
-* my own tinkering 
+This will donwload all dependences, install Jackett, and set it to start at bootup. This is a mashup of the minimal instructions at https://github.com/Jackett/Jackett and my own tinkering 
 
 There is no error checking. It was tested on an LXC container running in Proxmox using the default CentOS template (centos-7-default_20171212_amd64.tar.xz)
 
