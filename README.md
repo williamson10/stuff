@@ -13,6 +13,8 @@ You can run it with:
 
 
 # Radarr Installer
+## Note a bug killed Radarr for all right now - https://github.com/Radarr/Radarr/issues/2585
+
 This will donwload all dependences, install Radarr, and set it to start at bootup. This is a mashup of instructions found at:
 * https://github.com/Radarr/Radarr/wiki/Autostart-on-Linux
 * https://www.reddit.com/r/radarr/comments/5yhi3w/centos_7_installation/
