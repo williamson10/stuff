@@ -7,7 +7,7 @@ yum install wget mediainfo libzen libmediainfo curl gettext mono-core mono-devel
 yum -y install wget git par2cmdline p7zip unrar unzip tar gcc python-feedparser python-configobj python-cheetah python-dbus python-devel libxslt-devel
 useradd radarr -s /sbin/nologin
 wget $( curl -s https://api.github.com/repos/Radarr/Radarr/releases | grep linux.tar.gz | grep browser_download_url | head -1 | cut -d \" -f 4 )
-tar -xvf Radarr.develop.0.2.0.980.linux.tar.gz -C /opt/
+tar -xvf Radarr*.tar.gz -C /opt/
 chown -R radarr:radarr /opt/Radarr
 
 echo "
@@ -24,7 +24,7 @@ echo "
     Restart=on-failure
 [Install]
     WantedBy=multi-user.target
-" >> /usr/lib/systemd/system/radarr.service
+" > /usr/lib/systemd/system/radarr.service
 
 systemctl enable radarr.service
 
